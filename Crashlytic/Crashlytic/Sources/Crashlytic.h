@@ -3,7 +3,6 @@
 //  Crashlytics
 //
 //  Created by KS on 1/31/15.
-//  Copyright (c) 2015 Twitter. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
