@@ -1,0 +1,5 @@
+
+1) Build the "BUILD ALL" Target
+2) Clean and Run the "TwitterApp" Target
+3) Make the app go in background OR terminate to save the image list
+4) Open the app again to see previously loaded image list in xcode console.

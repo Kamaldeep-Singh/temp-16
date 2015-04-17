@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A2F4EEFE1A83357600CF18B2 /* BUILD ALL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A2F4EF081A83357600CF18B2 /* Build configuration list for PBXAggregateTarget "BUILD ALL" */;
+			buildPhases = (
+				A2F4EEFD1A83357600CF18B2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "BUILD ALL";
+			productName = "BUILD ALL";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A2F4EF2A1A83361E00CF18B2 /* CLCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4EF201A83361E00CF18B2 /* CLCoreData.h */; };
+		A2F4EF2B1A83361E00CF18B2 /* CLCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4EF211A83361E00CF18B2 /* CLCoreData.m */; };
+		A2F4EF2C1A83361E00CF18B2 /* CLDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4EF221A83361E00CF18B2 /* CLDefs.h */; };
+		A2F4EF2D1A83361E00CF18B2 /* CLLibraryTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4EF231A83361E00CF18B2 /* CLLibraryTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F4EF2E1A83361E00CF18B2 /* CLLibraryTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4EF241A83361E00CF18B2 /* CLLibraryTracker.m */; };
+		A2F4EF2F1A83361E00CF18B2 /* Crashlytic.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4EF251A83361E00CF18B2 /* Crashlytic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F4EF311A83361E00CF18B2 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4EF281A83361E00CF18B2 /* Image.h */; };
+		A2F4EF321A83361E00CF18B2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4EF291A83361E00CF18B2 /* Image.m */; };
+		A2F4EF361A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2F4EF341A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld */; };
+		A2F4EF371A83364E00CF18B2 /* CrashlyticsModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = A2F4EF341A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2F4EEFB1A83357600CF18B2 /* Crashlytic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Crashlytic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F4EF201A83361E00CF18B2 /* CLCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLCoreData.h; path = Sources/CLCoreData.h; sourceTree = "<group>"; };
+		A2F4EF211A83361E00CF18B2 /* CLCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLCoreData.m; path = Sources/CLCoreData.m; sourceTree = "<group>"; };
+		A2F4EF221A83361E00CF18B2 /* CLDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLDefs.h; path = Sources/CLDefs.h; sourceTree = "<group>"; };
+		A2F4EF231A83361E00CF18B2 /* CLLibraryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLLibraryTracker.h; path = Sources/CLLibraryTracker.h; sourceTree = "<group>"; };
+		A2F4EF241A83361E00CF18B2 /* CLLibraryTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLLibraryTracker.m; path = Sources/CLLibraryTracker.m; sourceTree = "<group>"; };
+		A2F4EF251A83361E00CF18B2 /* Crashlytic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crashlytic.h; path = Sources/Crashlytic.h; sourceTree = "<group>"; };
+		A2F4EF281A83361E00CF18B2 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = Sources/Image.h; sourceTree = "<group>"; };
+		A2F4EF291A83361E00CF18B2 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Image.m; path = Sources/Image.m; sourceTree = "<group>"; };
+		A2F4EF351A83364800CF18B2 /* CrashlyticsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrashlyticsModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F4EEF81A83357600CF18B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2F4EEF11A83357600CF18B2 = {
+			isa = PBXGroup;
+			children = (
+				A2F4EEFF1A83357600CF18B2 /* Crashlytic */,
+				A2F4EEFC1A83357600CF18B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F4EEFC1A83357600CF18B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4EEFB1A83357600CF18B2 /* Crashlytic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F4EEFF1A83357600CF18B2 /* Crashlytic */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4EF001A83357600CF18B2 /* Sources */,
+			);
+			path = Crashlytic;
+			sourceTree = "<group>";
+		};
+		A2F4EF001A83357600CF18B2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4EF1E1A8335A800CF18B2 /* Data */,
+				A2F4EF221A83361E00CF18B2 /* CLDefs.h */,
+				A2F4EF251A83361E00CF18B2 /* Crashlytic.h */,
+				A2F4EF231A83361E00CF18B2 /* CLLibraryTracker.h */,
+				A2F4EF241A83361E00CF18B2 /* CLLibraryTracker.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A2F4EF1E1A8335A800CF18B2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4EF341A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld */,
+				A2F4EF281A83361E00CF18B2 /* Image.h */,
+				A2F4EF291A83361E00CF18B2 /* Image.m */,
+				A2F4EF201A83361E00CF18B2 /* CLCoreData.h */,
+				A2F4EF211A83361E00CF18B2 /* CLCoreData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A2F4EEF91A83357600CF18B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4EF2F1A83361E00CF18B2 /* Crashlytic.h in Headers */,
+				A2F4EF2D1A83361E00CF18B2 /* CLLibraryTracker.h in Headers */,
+				A2F4EF2A1A83361E00CF18B2 /* CLCoreData.h in Headers */,
+				A2F4EF2C1A83361E00CF18B2 /* CLDefs.h in Headers */,
+				A2F4EF311A83361E00CF18B2 /* Image.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2F4EEFA1A83357600CF18B2 /* Crashlytic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F4EF051A83357600CF18B2 /* Build configuration list for PBXNativeTarget "Crashlytic" */;
+			buildPhases = (
+				A2F4EEF61A83357600CF18B2 /* Sources */,
+				A2F4EEF71A83357600CF18B2 /* Resources */,
+				A2F4EEF81A83357600CF18B2 /* Frameworks */,
+				A2F4EEF91A83357600CF18B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crashlytic;
+			productName = Crashlytic;
+			productReference = A2F4EEFB1A83357600CF18B2 /* Crashlytic.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F4EEF21A83357600CF18B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A2F4EEF51A83357600CF18B2 /* Build configuration list for PBXProject "Crashlytic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2F4EEF11A83357600CF18B2;
+			productRefGroup = A2F4EEFC1A83357600CF18B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F4EEFA1A83357600CF18B2 /* Crashlytic */,
+				A2F4EEFE1A83357600CF18B2 /* BUILD ALL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F4EEF71A83357600CF18B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4EF371A83364E00CF18B2 /* CrashlyticsModel.xcdatamodeld in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2F4EEFD1A83357600CF18B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=\"Crashlytic\"\nFMK_VERSION=\"A\"\n\nWRK_DIR=\"${SYMROOT}\"\nDEVICE_DIR=\"${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\"\nSIMULATOR_DIR=\"${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\"\n\nINSTALL_DIR=\"Frameworks/${FMK_NAME}.framework\"\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos CONFIGURATION_BUILD_DIR=\"${WRK_DIR}/Release-iphoneos\"\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator CONFIGURATION_BUILD_DIR=\"${WRK_DIR}/Release-iphonesimulator\"\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F4EEF61A83357600CF18B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4EF2E1A83361E00CF18B2 /* CLLibraryTracker.m in Sources */,
+				A2F4EF2B1A83361E00CF18B2 /* CLCoreData.m in Sources */,
+				A2F4EF321A83361E00CF18B2 /* Image.m in Sources */,
+				A2F4EF361A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2F4EF031A83357600CF18B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+			};
+			name = Debug;
+		};
+		A2F4EF041A83357600CF18B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+			};
+			name = Release;
+		};
+		A2F4EF061A83357600CF18B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OBJROOT = "$(SYMROOT)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.0;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A2F4EF071A83357600CF18B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OBJROOT = "$(SYMROOT)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.0;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A2F4EF091A83357600CF18B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_NAME = "BUILD ALL";
+				SDKROOT = iphoneos7.1;
+				VALID_ARCHS = "";
+			};
+			name = Debug;
+		};
+		A2F4EF0A1A83357600CF18B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_NAME = "BUILD ALL";
+				SDKROOT = iphoneos7.1;
+				VALID_ARCHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F4EEF51A83357600CF18B2 /* Build configuration list for PBXProject "Crashlytic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F4EF031A83357600CF18B2 /* Debug */,
+				A2F4EF041A83357600CF18B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F4EF051A83357600CF18B2 /* Build configuration list for PBXNativeTarget "Crashlytic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F4EF061A83357600CF18B2 /* Debug */,
+				A2F4EF071A83357600CF18B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F4EF081A83357600CF18B2 /* Build configuration list for PBXAggregateTarget "BUILD ALL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F4EF091A83357600CF18B2 /* Debug */,
+				A2F4EF0A1A83357600CF18B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2F4EF341A83364800CF18B2 /* CrashlyticsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2F4EF351A83364800CF18B2 /* CrashlyticsModel.xcdatamodel */,
+			);
+			currentVersion = A2F4EF351A83364800CF18B2 /* CrashlyticsModel.xcdatamodel */;
+			name = CrashlyticsModel.xcdatamodeld;
+			path = Sources/CrashlyticsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2F4EEF21A83357600CF18B2 /* Project object */;
+}
